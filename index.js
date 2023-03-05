@@ -72,7 +72,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Cheems Bot MD','Safari','1.0.0'],
+        browser: ['Haikal','Safari','1.0.0'],
         auth: state
     })
 
